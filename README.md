@@ -1,5 +1,4 @@
-Claro! Vamos continuar e completar o README para o projeto da API CRUD de Usuários com Django.
-
+### Passo a Passo
 ```markdown
 ### Passo 1: Instalar o Virtualenv
 
