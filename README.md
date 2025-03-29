@@ -160,8 +160,6 @@ class UserProfileViewSet(viewsets.ModelViewSet):
 
 ### Passo 11: Configurar URLs
 
-### Passo 11: Configurar URLs (continuação)
-
 No arquivo `projeto_APIusuarios/urls.py`, configure as URLs para as views:
 
 ```python
