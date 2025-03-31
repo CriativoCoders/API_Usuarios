@@ -177,7 +177,8 @@ urlpatterns = [
 ```
 ### Passo 12: Configurar as URLs do Projeto
 
-```
+```python
+
 Agora, você precisa incluir as URLs do aplicativo projeto_APIusuarios no arquivo de URLs principal do projeto. Abra o arquivo projeto/urls.py e adicione as seguintes linhas:
 
 python
@@ -200,7 +201,7 @@ urlpatterns = [
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
 ]
-
+```
 ### Passo 13: Migrar o Banco de Dados
 
 Agora que você configurou o modelo, as views e as URLs, é hora de criar as migrações e aplicar as alterações no banco de dados.
